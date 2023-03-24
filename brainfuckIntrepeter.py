@@ -19,7 +19,7 @@ while ip < len(program):
         if box[box_index] == -1 :
             box_index = 256
 
-    # s mean is square the step
+    
     elif instruction =="<":
         box_index -= 1
 

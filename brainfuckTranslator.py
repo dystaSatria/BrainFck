@@ -1,10 +1,10 @@
-def translateBrainfuck(input_text):
-    brainfuckCode = ""
-    for char in input_text:
-        ascii_value = ord(char)
-        brainfuckCode += "+" * ascii_value + ".>"
+def translateBrainfck(inputText):
+    brainfukCode = ""
+    for char in inputText:
+        asciiValue = ord(char)
+        brainfukCode += "+" * asciiValue + ".>"
 
-    return brainfuckCode
+    return brainfukCode
 
 while True:
     userInput = input("Input your text for translates to Brainfuck Language (Input 'Exit' for end the program): ")
@@ -12,7 +12,7 @@ while True:
     if userInput.lower() == "exit":
         break
 
-    brainfuck_program = translateBrainfuck(userInput)
+    brainfckProgram = translateBrainfck(userInput)
 
     print("Result as Brainf#ck Languange :")
-    print(brainfuck_program)
+    print(brainfckProgram)

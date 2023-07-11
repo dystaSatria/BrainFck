@@ -1,4 +1,4 @@
-# This is BrainFuck Language Intrepeter 
+# This is BrainFuck Language Translator
 
 ``` if u did'nt know about BrainFuck, you can check the link below```
 

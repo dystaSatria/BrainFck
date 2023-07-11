@@ -1,4 +1,4 @@
-# This is BrainFuck Language Translator
+# Welcome To BrainF#ck
 
 ``` if u did'nt know about BrainFuck, you can check the link below```
 

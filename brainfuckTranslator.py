@@ -12,7 +12,7 @@ while True:
     if userInput.lower() == "exit":
         break
 
-    brainfuck_program = translate_to_brainfuck(userInput)
+    brainfuck_program = translateBrainfuck(userInput)
 
     print("Result as Brainf#ck Languange :")
     print(brainfuck_program)
